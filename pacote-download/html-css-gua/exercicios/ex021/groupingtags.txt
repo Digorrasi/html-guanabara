@@ -1,0 +1,4 @@
+<nav> = parte em baixo do cabeçalho
+<header> = cabeçalho
+<footer> = rodapé
+<main> = corpo do texto

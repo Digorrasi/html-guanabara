@@ -1,0 +1,39 @@
+CONCEITOS DE CAIXAS
+
+height = altura da caixa
+width = largura da caixa
+border = borda da caixa (dentro do elemento)
+padding = preenchimento da caixa (em relação à borda)
+margin = margem ("preenchimento" do lado de fora da borda)
+outline = contorno (fora do elemento)
+
+TIPOS DE CAIXAS
+
+box-level - sempre quebra para a próxima linha e ocupa a largura inteira da tela e quando o box termina, ele vai para a próxima linha novamente
+ex: <div> 
+    <h1>-<h6>
+    <p>
+    <main>
+    <header>
+    <nav>
+    <article>
+    <aside>
+    <footer>
+    <form>
+    <video>
+inline-level - ocupa o tamanho necessário e não quebra nenhuma linha
+ex: <span>
+    <a>
+    <code>
+    <small>
+    <strong>
+    <em>
+    <sup>-<sub>
+    <label>
+    <button>
+    <input>
+    <select>
+
+User agent = navegador
+
+margin: auto; ----> centraliza a caixa (também centraliza ela de acordo com o navegador de cada um)

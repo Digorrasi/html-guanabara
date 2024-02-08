@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'droid', sans-serif;
+}
+
+main {
+    max-width: 800px;
+    min-width: 400px;
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px black;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: #ebe5c5;
+}
+
+header > h1 {
+    text-align: center;
+    text-shadow: 1px 2px 0px black;
+    color: white;
+    font-family: var(--fonte1);
+}
+header > p {
+    text-align: center;
+    text-shadow: 1px 2px 0px black;
+    color: white;
+    
+}
+
+header {
+    background-color: var(--cor4);
+    padding: 10px;
+    margin: -8px;
+
+}
+nav > a {
+    color: var(--cor2);
+    text-decoration: none;
+    text-shadow: 1px 2px 0px black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 3px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article > h2 {
+    font-family: var(--fonte2);
+    color: var(--cor4);
+    padding: 2px;
+    background-image: linear-gradient(to right, #83e1ad6b, #c5ebd600);
+    margin: auto;
+}
+article > h1 {
+    font-family: var(--fonte2);
+    color: var(--cor4);
+    font-size: 30px;
+    padding: 10px;
+}
+article > p {
+    color: black;
+    padding: 10px;
+    line-height: 1.2em;
+}
+
+div.video{
+    position: relative;
+    background-color: var(--cor5);
+    height: 0px;
+    margin: auto;
+    padding-bottom: 59%;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+aside > p {
+    color: black;
+    padding: 1px;
+    margin: 15px;
+}
+aside > ul {
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
+aside > h3 {
+    color: white;
+    background-color: var(--cor4);
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside {
+    background-color: var(--cor1);
+    margin: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+
+img {
+
+    height: auto;
+  
+    max-width: 100%;
+  
+  }
+
+footer {
+    background-color: #063d1e;
+    margin: -8px;
+    text-align: center;
+    padding:10px;
+}
+
+.normal {
+    color: #063d1e;
+    font-weight: bold;
+}
+
+.especial {
+    color: #063d1e;
+    font-weight: bold;
+    background-color: #83e1ad9f;
+    width: 10px;
+    
+}
